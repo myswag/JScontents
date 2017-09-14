@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+
+<h3>二阶段JS知识点目录:)</h3><br><br>
+<b><a href="day01.html">Day01</a><br><br></b>
+1、	js历史背景、组成、常量、变量、输出。<br>
+2、	运算符和表达式、 i++, i--,。<br>
+3、	表达式：常量、变量、或者一个用运算符连接起来的式子。<br>
+4、	运算符：算数运算符、关系运算符、逻辑运算符、条件运算符。<br><br><br>
+
+<b><a href="day02.html">Day02</a><br><br></b>
+1、	赋值运算符   =（赋值） /   ==（等于） 。<br>
+复合赋值运算符：+= &nbsp;&nbsp;    -=  &nbsp;&nbsp;   *= &nbsp;&nbsp;   /=  &nbsp;&nbsp;   %=  &nbsp;&nbsp;   。<br>
+2、	运算符的优先级：()&nbsp;&nbsp;  > &nbsp;&nbsp; 单目&nbsp;&nbsp;  >&nbsp;&nbsp;  算术&nbsp;&nbsp;  >&nbsp;&nbsp;  关系&nbsp;&nbsp;  > &nbsp;&nbsp; 逻辑 &nbsp;&nbsp; > &nbsp;&nbsp;  条件&nbsp;&nbsp;   > &nbsp;&nbsp;  赋值。<br>
+3、	短路问题。<br>
+4、	类型转换：自动转换、强制转换（parseInt/parseFloat/Number/toString/isNaN/eval）。<br>
+5、	程序的三大结构：顺序、选择、循环<br>
+6、	选择结构：单分支选择结构（一个条件）、多分支选择结构（两个以上条件）。<br>
+If…else  &nbsp;&nbsp;   /  &nbsp;&nbsp;   if…else if…else…<br><br>
+
+<b><a href="day03.html">Day03</a><br><br></b>
+1、	循环结构<br>
+2、	循环结构控制语句：while  do…while &nbsp;&nbsp;  /  &nbsp;&nbsp; for  for…in  。<br>
+3、	循环的五个要素：变量、初始值、终值、增值、循环体。<br>
+4、	While 和 do…while 的区别。<br>
+5、	for循环 ：语法结构 、 说明。<br>
+6、	for循环和while循环的使用场景。<br>
+7、	break和continue 。<br><br><br>
+
+<b><a href="day04.html">Day04</a><br><br></b>
+1、	函数<br>
+2、	定义一个函数的方式：①function 函数名(){函数体} ②var fn=function(){}。<br>
+3、	函数的参数：形式参数、实际参数。<br>
+4、	函数的返回值：return 。<br>
+5、	变量的作用域：全局变量 和 局部变量 。<br>
+6、	变量的提升<br><br><br>
+
+<b><a href="day05.html">Day05</a><br><br></b>
+1、	函数的递归调用。<br>
+2、	函数的实参副本：arguments.length（用来获取实参的个数）。<br>
+3、	事件的三要素：事件源、事件、事件处理程序。<br>
+4、	事件种类：页面事件、鼠标事件、键盘事件、其他事件（针对表单）。<br>
+5、	页面事件：window.onload=function(){} &nbsp;&nbsp; 页面加载事件。<br>
+6、	鼠标事件：onclick（单击）、&nbsp;&nbsp; ondblclick（双击）、&nbsp;&nbsp; onmouseover（鼠标移入）、&nbsp;&nbsp; onmouseout（鼠标移出）、&nbsp;&nbsp; onmouseenter（移入）、&nbsp;&nbsp; onmouseleave（移出）、&nbsp;&nbsp; onmousemove（移动）、&nbsp;&nbsp; onmousedown（按下）、&nbsp;&nbsp; onmouseup（抬起）、&nbsp;&nbsp; oncontextmenu（右键单击）。<br>
+7、	键盘事件：onkeyup（抬起）、onkeydown（抬起）、onkeypress（按下+抬起）。<br>
+8、	其他事件（针对表单）：onfocus（获取焦点）、onblur（失去焦点）、onchange（改变）、onsubmit（表单提交）。<br>
+9、	事件绑定：
+①页面对象.事件 = function(){} <br>
+&nbsp;&nbsp; ②在标签上添加事件：   尖括号input type="button" onclick = "fun()"  value="按钮"尖括号
+    script  function fun(){}  /script<br>
+ &nbsp;&nbsp;  ③页面对象.事件 = 函数名;  （函数名没有括号）
+     function 函数名(){}  <br>
+10、	js操作页面元素：操作样式、属性操作、内容操作。<br>
+obj.style.样式名 = 值 / obj.属性名 = 值  /  obj.innerHTML = 值。<br><br><br>
+
+<b><a href="day06.html">Day06</a><br><br></b>
+1、	对象：特性、调用方法、方法和函数的关系、特点。<br>
+2、	全局变量和全局函数。<br>
+3、	构造函数。<br>
+4、	内置对象：Array（数组对象）、String（字符串对象）、Math（数学对象）、Date（日期时间对象）、RegExp（正则对象） 。<br>
+5、	数组对象。<br>
+6、	数组的定义。Var arr = []<br>
+7、	数组的赋值（通过下标，0为数组第一个数）。<br>
+8、	数组遍历  for   for…in 。<br>
+9、	区分是一个对象还是数组：instanceof &nbsp; array  。<br>
+10、	数组的操作方法：<br>
+&nbsp;&nbsp; Push()像尾部添加、 pop()删除数组尾部数据、 shift()删除首部数据、 unshift()向首部添加一个过多个数据、slice(start,end)从开始位置截取到结束处位置，但不包括结束处位置的数据（不改变原数组）、 &nbsp;&nbsp; splice(start,length)从开始截取指定长度的数据（改变原数组）、 join()数组转成字符串、 concat()数组合并连接、 reverse()翻转。<br>
+11、	栈 和 堆。<br>
+12、	冒泡排序。<br><br><br>
+
+<b><a href="day07.html">Day07</a><br><br></b>
+1、	sort排序。<br>
+2、	选择排序。<br>
+3、	严格模式  程序或函数开头加一句”use strict”（变量声明必须加var）。<br>
+4、	数组操作新增方法：<br>
+&nbsp;&nbsp; ①	indexOf(num)判断num在数组中是否存在，存在返回Num,否则返回-1。<br>
+&nbsp;&nbsp; ②	forEach()：遍历数组，无返回值<br>
+&nbsp;&nbsp; forEach(function(item数组中的每一项/index数组的索引/array数组本身){…})。<br>
+&nbsp;&nbsp; ③	filter()：根据条件返回一个新数组。<br>
+&nbsp;&nbsp; ④	map：映射。用法：数组.map(function(item,index){   ........  })。<br>
+&nbsp;&nbsp; ⑤	reduce()：归并：返回结果为最后一次操作的结果。<br>
+5、字符串对象。<br><br><br>
+
+<b><a href="day08.html">Day08</a><br><br></b>
+1、	数学对象Math。Math.random()获取随机数[0,1）。<br>
+2、	获取任意区间值：<br>
+&nbsp;&nbsp; Math.floor(  Math.random()*(max-min+1) )  +  min 。<br>
+&nbsp;&nbsp; 封装一个函数，功能获取任意区间值：<br>
+&nbsp;&nbsp; function rand(min,max){ return Math.floor( Math.random()*(max-min+1) ) + min;} 。<br>
+3、	获取六位 十六进制颜色值。<br>
+4、	日期时间对象：getFullYear()获取年份、 getMonth()月份、 getDate()日期、 getHours()小时、 getMinutes()分钟、 getSeconds()秒、 getDay()星期。<br>
+5、	dateToString函数封装。<br>
+6、	stringToDate函数封装。<br>
+7、	日期转成毫秒值  getTime() 。<br>
+8、	设置时间差。<br>
+9、	设置时间格式。  设置10天后的时间。   <br>
+10、	设置几天后的时间：now.setDate( now.getDate() + 9 ) 。<br>
+11、	定时器 setInterval &nbsp;&nbsp; / &nbsp;&nbsp;  解除clearInterval  。<br><br><br>
+
+<b><a href="day09.html">Day09</a><br><br></b>
+1、	BOM（浏览器对象模型）。<br>
+2、	Window。 三个弹出对话框的方法。  两个定时器。 对象特点。  弹出窗口方法。<br>
+3、	Location对象：设置页面跳转、页面刷新、每隔三秒页面自动刷新。<br>
+4、	历史记录：history.go(-1/1)。<br>
+5、	Document对象，文档对象。<br>
+6、	操作页面元素。操作样式、属性、内容。<br>
+7、	编写一个函数的，兼容 byClassName方法。<br>
+8、	dom（文档对象模型）结构。<br>
+9、	节点关系。节点类型。Children 。<br><br><br>
+
+<b><a href="day10.html">Day10</a><br><br></b>
+1、	创建节点。document.createElement("元素名称") &nbsp;&nbsp; / &nbsp;&nbsp; document.createTextNode("文本").<br>
+2、	添加节点。appendChild()。<br>
+3、	删除节点。父元素.removeChild( 要删除的子元素 )。<br>
+4、	节点克隆。cloneNode()。<br>
+5、	dom中的属性操作。<br>
+&nbsp;&nbsp; ①	obj.getAttribute("属性名")<br>&nbsp;&nbsp; ②obj.setAttribute( "属性名","值" ) <br>&nbsp;&nbsp; ③obj.removeAttribute("属性名")（删除某个元素属性）。<br>
+6、	window中的onscroll 及 onscroll家族属性。<br>
+7、	获取页面滚走的距离。<br><br><br>
+
+<b><a href="day11.html">Day11</a><br><br></b>
+1、	事件对象、时间对象兼容。<br>
+2、	鼠标坐标属性。<br>
+3、	Button属性。<br>
+4、	获取键盘按键值。keyCode  回车键：13 &nbsp;&nbsp;  / &nbsp;&nbsp;  A—65 。<br>
+5、	事件流：冒泡、捕获。<br>
+6、	阻止事件冒泡：e.stopPropagation ? e.stopPropagation() : e.cancelBubble = true 。<br>
+7、	阻止浏览器右键菜单：e.preventDefault ? e.preventDefault() : e.returnValue = false; 或 return false 。<br>
+8、	阻止超链接。<br>
+9、	事件绑定。在script标签中绑定事件。<br>
+10、	事件监听  addEventListener() 。<br><br><br>
+
+<b><a href="day12.html">Day12</a><br><br></b>
+1、	事件监听 兼容。addEventListener()。兼容函数见笔记。<br>
+2、	事件委托。委托机制、委托实现方式。<br>
+3、	Json对象。读写操作：json对象.键 或 json对象["键"]。<br>
+4、	拖拽思路。<br><br><br>
+
+<b><a href="day13.html">Day13</a><br><br></b>
+1、	offset家族属性。<br>
+2、	offsetWidth 和 obj.style.width区别。<br>
+3、	offsetLeft 、 offsetTop .<br>
+4、	cookie：会话跟踪技术。<br>
+5、	cookie数据的存和取。&nbsp;&nbsp; 存：document.cookie = "键=值" 。&nbsp;&nbsp; 取：document.cookie。<br>
+6、	字符串&nbsp;&nbsp; 对象：JSON.parse( str ) 。 <br>
+7、	对象&nbsp;&nbsp; 字符串 ： JSON.stringify( obj ) 。<br><br><br>
+
+<b><a href="day14.html">Day14</a><br><br></b>
+1、	cookie生存期。<br>
+2、	如何设置生存期。<br>
+3、	删除生存期：将值改为 "" &nbsp;&nbsp;  或&nbsp;&nbsp;   生存期设置为 -1 。<br>
+4、	cookie注意的问题。<br>
+5、	正则表达式：var reg = /表达式/修饰符。<br>
+6、	正则中修饰符：i 不区分大小写、&nbsp;&nbsp; g 全局查找、&nbsp;&nbsp; m 多行查找。<br>
+7、	正则中元字符：&nbsp;&nbsp; ^ ：正则开始、&nbsp;&nbsp;$：正则结束、&nbsp;&nbsp;. ：任意一个字符、&nbsp;&nbsp;* ：等价{0,}至少0个字符，至多无数、&nbsp;&nbsp;+：等价{1,}至少1个字符、&nbsp;&nbsp;? ：等价{0,1}、&nbsp;&nbsp;\  ：转义字符、&nbsp;&nbsp;() ：优先级最高、&nbsp;&nbsp;| ： 表示或者。<br>
+8、	正则中组合字符：&nbsp;&nbsp; \w：表示一个单词字符（字母或数字或下划线）、&nbsp;&nbsp;\W: 表示非单词字符 （除了字母  数字 下划线之外的字符）、&nbsp;&nbsp;\d: 等价 [0-9]  任意一个数字、&nbsp;&nbsp; \D: 等价 [^0-9] 非数字、&nbsp;&nbsp; \s : 表示一个空白字符 （tab、space）、&nbsp;&nbsp;\S : 表示非空白字符、&nbsp;&nbsp; {} 表示范围、&nbsp;&nbsp;{m,n}：至少出现m个，至多出现n个。<br><br><br>
+
+<b><a href="day15.html">Day15</a><br><br></b>
+1、	正则表达式相关方法：text()用法：reg.test(str)、&nbsp;&nbsp;&nbsp;&nbsp;exec()用法：reg.exec(str)。<br>
+2、	正则中字符串的方法。<br>
+&nbsp;&nbsp;①	str.search(reg)：查找内容匹配的第一个子字符串的位置。<br>
+&nbsp;&nbsp;②	str.match(reg)：对字符串查找，返回数组。<br>
+&nbsp;&nbsp;③	str.replace：替换的新字符串，要实现全局查找，正则后面加个g 。<br>
+3、ES6新增方法 ：forEach   filter   reduce  indexOf   map。<br>
+   ES5新增方法：join  push   pop  shift。<br>
+3、	严格模式下个几个要求。<br>
+4、	绑定this指向。bind() &nbsp;&nbsp; / &nbsp;&nbsp; apply() 和 call() 。<br>
+5、	Let块级作用域<br><br><br>
+
+<b><a href="day16.html">Day16</a><br><br></b>
+1、	箭头函数  => 。<br>
+2、	解构赋值。<br>
+3、	Array.from  将一个伪数组转成数组。<br>
+4、	字符串模板    `  `   即可以识别变量也可以识别函数。<br>
+5、	Set和Map。<br>
+6、	Set集合方法：add / delete / has / clear 。<br>
+7、	Set集合特点：自动去重。  数组去重：把数组转成集合，再将集合转成数组。<br>
+8、	Map集合。<br>
+9、	Map集合方法：set() / delete() / has() / clear() /可以使用for  of 来遍历map集合的值。<br>
+10、	ES5构造函数定义方法。<br>
+11、	运动：匀速 --- 缓冲 --- 多物体运动 ---链式----完美。<br><br><br>
+
+<b><a href="day19.html">Day19</a><br><br></b>
+1、	数据库。<br>
+2、	常见数据库/数据库创建/表的创建/。<br><br><br>
+
+<b><a href="day21.html">Day21</a><br><br></b>
+1、	什么是ajax。<br>
+2、	同步和异步。<br>
+3、	线程：多线程、单线程。<br>
+4、	ajax请求数据的方式：get、post 。<br>
+5、	ajax请求数据的步骤<br>
+6、	状态值/状态码。<br>
+7、	如何解决缓存问题。<br>
+8、	将string类型转成object类型。JSON.parse() / eval() 。<br>
+9、	模拟接口实现 验证用户名的唯一性。<br>
+
+<b><a href="day22.html">Day22</a><br><br></b>
+1、	ajax的post请求。<br>
+2、	同源策略。<br>
+3、	使用jsonp实现 跨域请求数据。<br>
+4、	什么是jsonp。<br>
+5、	如何实现跨域。Cors<br>
+6、	异步编程。<br><br><br>
+
+<b><a href="day23.html">Day23</a><br><br></b>
+1、	什么是XSS：跨站脚本攻击。<br>
+2、	什么是脚本攻击。解决方法。<br>
+3、	什么是对象。<br>
+4、	什么是类。<br>
+5、	面向对象  oop。好处？<br>
+6、	对象的创建（单个对象创建）。<br>
+7、	工厂模式（批量对象创建）。<br>
+8、	构造函数。New  。 优缺点？<br>
+9、	原型构造函数。优缺点？<br>
+10、	混合构造函数<br>
+
+<b><a href="day24.html">Day24</a><br><br></b>
+1、	原型构造函数prototype<br>
+2、	原型中的几个关键字（扩展）。<br>
+3、	原型模式的执行流程。<br>
+4、	面向对象三个特性：封装、继承、多态。<br>
+5、	继承：单继承、多继承。<br>
+6、	继承方式一 ： 通过改变父类的执行环境。<br>
+7、	通过call方法改变 父类的this指向。<br>
+8、	通过apply方法改变父类的this指向：两个参数。<br>
+9、	原型继承。<br>
+10、	混合继承：call   apply  。<br>
+11、	ES6继承。<br><br><br>
+
+<b><a href="day25.html">Day25</a><br><br></b>
+1、	设计模式。<br>
+2、	设计模式之单例模式。<br>
+3、	设计模式之代理模式。<br>
+4、	设计模式之适配器模式。<br>
+5、	设计模式之工厂模式。<br>
+6、	设计模式之观察者模式。<br>
+7、	策略模式。<br>
+8、	闭包中的this指向window对象。<br><br><br>
+
+<b><a href="day27.html">Day27</a><br><br></b>
+1、	SVN：版本控制工具。<br>
+2、	jQuery。<br>
+3、	jq的好处。<br>
+4、	jq的入口函数。<br>
+5、	jq的入口函数和js的区别。<br>
+6、	jq和Js的关系。<br>
+7、	选择器 <br>
+8、	基本选择器:<br>
+&nbsp;&nbsp;$("#id") &nbsp;&nbsp; / &nbsp;&nbsp; $(".class") &nbsp;&nbsp; /&nbsp;&nbsp;  $("标签") &nbsp;&nbsp; /&nbsp;&nbsp;  $("选择器1,选择器2,...") &nbsp;&nbsp; / &nbsp;&nbsp; $('*') 通用  选择所有元素。<br>
+9、	层级选择器：<br>
+&nbsp;&nbsp;①	空格----$("div p") -----查找后代元素。   &nbsp;&nbsp; ②  > ----- $("div > p") ------查找子代元素。<br>
+&nbsp;&nbsp;③	~ ------$("div~p")-----查找下面的所有兄弟。  &nbsp;&nbsp; ④ +----$("div+p")-----查找下面紧邻的兄弟。<br>
+10、	简单选择器：<br>
+&nbsp;&nbsp;① :first---- $("li:first") 。  ②  :last。    ③ :eq()------$("li:eq(2)")----下标从0开始。<br>
+     &nbsp;&nbsp; ④ :odd----下标为奇数行。       ⑤:even-----下标为偶数行。
+&nbsp;&nbsp;⑥ :not-----除了某个元素之外的元素-------$("li:not(:first)")。<br>
+11、	查找过滤选择器：<br>
+&nbsp;&nbsp;①---parent()----查找父元素。<br> &nbsp;&nbsp;②-- children()-----查找子元素。<br> &nbsp;&nbsp;③---find(“参数”)----查找后代元素 。<br>
+&nbsp;&nbsp;④--- first()---$("li").first()。<br>&nbsp;&nbsp;⑤--- eq()----$("li").eq(下标)。<br> &nbsp;&nbsp;⑥--- siblings()---除自身以外的元素。<br>
+&nbsp;&nbsp;⑦--- next()---下一个紧邻的元素。<br>&nbsp;&nbsp;⑧---nextAll()---下面所有紧邻的元素。<br> &nbsp;&nbsp;⑨---prev()---前面一个紧邻的元素。<br>
+&nbsp;&nbsp;⑩---prevAll()---前面紧邻的所有元素。<br>
+12、	表单选择器。<br>
+13、	jq获取元素的个数：size()  或  length。<br>
+14、	jquery的样式操作：<br>
+15、	jquery的属性操作。<br>
+16、	jquery的内容操作。<br>
+17、	jquery对象和js对象的互换。<br>
+18、	jquery中获取下标方法： index()。<br><br><br>
+
+<b><a href="day28.html">Day28</a><br><br></b>
+1、	属性选择器。<br>
+2、	Jquery的文档操作。<br>
+3、	动画<br>
+4、	动画之--显示和隐藏: show()  &nbsp;&nbsp;/ &nbsp;&nbsp; hide()&nbsp;&nbsp;  / &nbsp;&nbsp;toggle()----切换。<br>
+5、	动画值--上下拉: slideDown()—显示 &nbsp;&nbsp; / &nbsp;&nbsp; slideUp()—隐藏  &nbsp;&nbsp;/ &nbsp;&nbsp; slideToggle()---切换。<br>
+6、	动画之淡入淡出（通过透明度改变）：fadeIn()显示&nbsp;&nbsp;  /&nbsp;&nbsp;  fadeOut()隐藏&nbsp;&nbsp;  /&nbsp;&nbsp;  fadeToggle()切换透明度 &nbsp;&nbsp;/ &nbsp;&nbsp;fadeTo()调整透明度：第一个参数是毫秒值。第二个参数是透明度值（0-1）。<br>
+7、	自定义动画：animate()     end() 。<br>
+8、	jQuery遍历。<br><br><br>
+
+<b><a href="day29.html">Day29</a><br><br></b>
+1、	jquery宽度获取：<br>
+&nbsp;&nbsp;width() / height()获取元素实际的宽高<br>
+&nbsp;&nbsp;outerWidth()/outerHeight()--------获取的宽和高（包括补白和边框）<br>
+&nbsp;&nbsp;innerWidth()/innerHeight()---------获取的宽和高（包括补白不包括边框）<br>
+2、	jquery中的滚动条：scrollTop()。<br>
+3、	jquey中的位置：offset（）。<br>
+4、	jquery事件：mouseover（会产生时间冒泡）和mouseenter（不会产生时间冒泡）。<br>
+5、	jquery插件。<br><br><br>
+
+<b><a href="day30.html">Day30</a><br><br></b>
+1、	ajax的异步请求之 load。<br>
+2、	load()方法的参数有三个。<br>
+3、	ajax请求之  $.get 或 $.post。<br>
+4、	ajax请求之  $.getJson()  &nbsp;&nbsp;/  &nbsp;&nbsp; $.getScript() 。<br>
+5、	$.ajax 。<br><br><br>
+
+<b><a href="day31.html">Day31</a><br><br></b>
+1、	bootStrap ： http://v3.bootcss.com 。<br>
+&nbsp;&nbsp;bootStrap ：前端框架，封装了html 、 css 、js 功能，好处：响应式布局（自适应）。<br>
+2、	sass：动态的css。<br>
+3、	sass的使用/监听/提供的四个编译风格的选项/语法。安装ruby。<br>
+4、	git。安装。<br><br><br>
+
+<b><a href="day32.html">Day32</a><br><br></b>
+1、	gulp。安装。<br>
+2、	less语法。<br><br><br>
+
+<b><a href="day33.html">Day33</a><br><br></b>
+1、	模块化开发：可以一次引入多个模块文件。Require.js加载的模块。<br>
+2、	如何实现模块化开发（requirejs），三个步骤。<br>
+3、	requirejs模块化开发常用的方法。<br>
+4、	关于requirejs（模块化开发）好处。<br>
+5、	关于AMD和CMD 。<br>
+6、	模板引擎。<br><br><br>
+
+
+
+
+	</body>
+</html>
